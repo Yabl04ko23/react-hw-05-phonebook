@@ -1,0 +1,34 @@
+.enter {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: all 250ms linear;
+}
+
+.enterActive {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.exitActive {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: all 250ms linear;
+}
+
+.notification h2 {
+  position: fixed;
+  right: 60px;
+  top: 10px;
+  color: white;
+  background: red;
+  padding: 10px;
+  border-radius: 10px;
+  width: auto;
+  z-index: 3;
+  font-size: 15px;
+}

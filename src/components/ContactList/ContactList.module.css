@@ -1,0 +1,41 @@
+.contactsUl {
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  width: auto;
+  margin: 0px;
+}
+
+.contactsUl li {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 10px 20px;
+  width: auto;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 3px 3px 4px  black;
+}
+
+.enter {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 250ms linear;
+}
+
+.enterActive {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.exit {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 250ms linear ;
+}
+
+.exitActive {
+  opacity: 0;
+  transform: translateX(-100%);
+}

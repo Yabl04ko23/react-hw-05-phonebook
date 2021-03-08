@@ -1,0 +1,60 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.contact-form {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 180px;
+}
+
+.contact-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px 0px;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.contact-input {
+  margin-top: 5px;
+}
+
+.submit-Btn {
+  width: 100px;
+  background-color: #fff;
+  border: 1px solid;
+  margin: 10px 0px 0px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.deleteBtn {
+  background-color: white;
+  border: 1px solid black;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.Header-appear {
+  transform: translateX(-100%);
+}
+
+.Header-appear-active {
+  transform: translateX(0);
+  transition: transform 500ms linear;
+}
