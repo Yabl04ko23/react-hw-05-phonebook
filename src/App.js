@@ -63,7 +63,7 @@ class App extends Component {
     const foundContacts = this.findContact();
     return (
       <>
-        <CSSTransition in={true} appear={true} timeout={250} classNames="Header">
+        <CSSTransition in={true} appear={true} timeout={500} classNames="Header">
           <h1>Phonebook</h1>
         </CSSTransition>
 
